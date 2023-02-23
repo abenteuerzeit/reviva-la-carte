@@ -5,6 +5,16 @@ In this folder, you can find all the documentation created by the developers.
 
 ## High-Level Design
 
+The app uses a monolithic architecture with clear separation of concerns and vertical slices represented by modules within the app. The main modules are:
+
+- User Management Module: handles user authentication, authorization, and profile management.
+- Meal Planning and Generation Module: generates meal plans based on user preferences and dietary restrictions.
+- Recipe Module: allows users to search, create, and manage recipes.
+- Grocery List and Product Recommendations Module: generates grocery lists based on the meal plan and offers product recommendations.
+- Sharing Module: allows users to share meal plans with others.
+- Delivery and Payment Module: manages the delivery and payment of orders.
+These modules communicate with each other through APIs and data transfers. The system architecture diagram is shown below:
+
 ### Modular Monolith with Vertical Slices
 
 Modules are the high-level components that make up the app. Each module represents a specific area of functionality that the app provides, such as user management, meal planning and generation, grocery list and product recommendations, recipe management, sharing, and delivery management and payment
@@ -20,7 +30,7 @@ Each module is a self-contained set of features that are related to a specific d
 ### Code Organization and Structure
 
 ```
-meal-planner-app/
+viva-la-carte/
 ├── user-management/
 │   ├── src/
 │   ├── tests/
@@ -47,3 +57,13 @@ meal-planner-app/
 │   └── README.md
 └── README.md
 ```
+
+## User Flow
+
+1. User fills out meal plan form.
+2. Editable meal plan is displayed.
+3. User decides whether to place a single order or repeat the same meal plan over a specified period.
+4. User can modify the offered meals or ingredients.
+5. User checks out and uses the suggested product list, or goes to an editable shopping list page to change the suggested products.
+6. User accepts the shopping list and proceeds to payment processing.
+7. Upon successful payment, order and delivery information is displayed.
