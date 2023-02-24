@@ -2,41 +2,35 @@
 
 ## Domains and subdomains
 
-User Management
+## User Management
 
-Entities: User, Role, Permission
-
-Value Objects: Credentials, UserProfile
+- Entities: User, Role, Permission
+- Value Objects: Credentials, UserProfile
 
 ## Meal Planning and Generation
 
-Entities: MealPlan, Meal, Recipe, Ingredient
-
-Value Objects: MealPreference, DietaryRestriction
+- Entities: MealPlan, Meal, Recipe, Ingredient
+- Value Objects: MealPreference, DietaryRestriction
 
 ## Recipe Management
 
-Entities: Recipe, Ingredient
-
-Value Objects: RecipeCategory, IngredientCategory
+- Entities: Recipe, Ingredient
+- Value Objects: RecipeCategory, IngredientCategory
 
 ## Grocery List and Product Recommendations
 
-Entities: GroceryList, Product, Ingredient
-
-Value Objects: Location
+- Entities: GroceryList, Product, Ingredient
+- Value Objects: Location
 
 ## Sharing
 
-Entities: SharedMealPlan
-
-Value Objects: -
+- Entities: SharedMealPlan
+- Value Objects: -
 
 ## Delivery and Payment
 
-Entities: Order, Payment
-
-Value Objects: Address, PaymentMethod
+- Entities: Order, Payment
+- Value Objects: Address, PaymentMethod
 
 
 ## Modules
