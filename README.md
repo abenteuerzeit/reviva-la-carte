@@ -1,4 +1,7 @@
 # reviva-la-carte
+
+- See [System Architecture Decision](https://github.com/abenteuerzeit/reviva-la-carte/blob/development/docs/SAD.md)
+
 Our app automates grocery shopping and generates diet plans based on user-defined nutritional requirements. It sources recipes from Edamame API and creates a shopping list with one-click checkouts and delivery. Users can share meal plans, create diet and lifestyle groups, and more. All in one convenient, easy-to-use platform
 
 To solve the problem of creating customized food lists that meet specific nutritional requirements, we can design an e-commerce and lifestyle web application that includes a core scoring algorithm to generate a list of food items. The app would allow users to track their food inventory, plan their meals, and create a shopping list for the ingredients. In addition, users can search for recipes, create collections, and share their data with others. Below is the logical hierarchy of the app's features, domains, and subdomains, and how they relate to the problem.
